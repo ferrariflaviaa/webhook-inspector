@@ -1,0 +1,10 @@
+{
+	"name": "node-react",
+	"version": "1.0.0",
+	"author": "flaviaferrari",
+	"private": true,
+	"workspaces": [
+		"api",
+		"web"
+	]
+}
