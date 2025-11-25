@@ -7,8 +7,8 @@
 		"start": "node dist/server.js",
 		"format": "biome format --write",
 		"db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
 	},
 	"author": "flaviaferrari",
 	"license": "MIT",
@@ -21,6 +21,7 @@
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
+		"@faker-js/faker": "^10.1.0",
 		"@fastify/cors": "^11.1.0",
 		"@fastify/swagger": "^9.6.1",
 		"@scalar/fastify-api-reference": "^1.40.0",
